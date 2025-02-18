@@ -8,26 +8,23 @@
 </head>
 <body>
 
-    
-    <h1>Rock - Paper - scissors</h1>
-
-    <div class="choices"> 
-        <button onclick="playGame('rock')">👊</button>
-        <button onclick="playGame('paper')">🤚</button>
-        <button onclick="playGame('scissors')">✌️</button>
+    <div class="slider">
+        <div class="slides">
+            <img class="slide" src="download 1.jpeg" alt="">
+            <img class="slide" src="download 2.jpeg" alt="">
+            <img class="slide" src="download 3.jpeg" alt="">
+            <img class="slide" src="download 4.jpeg" alt="">
+            <img class="slide" src="download 5.jpeg" alt="">
+            <img class="slide" src="download 6.jpeg" alt="">
+            <img class="slide" src="download 7.jpeg" alt="">
+            <img class="slide" src="download 8.jpeg" alt="">
+            <img class="slide" src="download 9.jpeg" alt="">
+            <img class="slide" src="download 10.jpeg" alt="">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
     </div>
-
-    <div id="playerDisplay">PLAYER:</div>
-    <div id="computerDisplay">COMPUTER:</div>
-    <div id="resultDisplay"></div>
-
-    <div class="scoreDisplay">Player score:
-        <span id="playerScoreDisplay">0</span>
-    </div>
-
-    <div class="scoreDisplay">Coputer score:
-        <span id="computerScoreDisplay">0</span>
-    </div>
+   
     
     <script src="index.js"></script>
 </body>
